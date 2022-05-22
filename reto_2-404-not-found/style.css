@@ -1,0 +1,103 @@
+/*GLOBALES*/
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url('./imgs/stars-ge870822e2_1920.jpg');
+  font-family: 'Exo', sans-serif;
+  line-height: 0.7;
+}
+
+.container {
+  margin: 0 auto;
+  width: 393px;
+  position: relative;
+  z-index: 1;
+}
+
+.container__img {
+  margin-top: 160px;
+}
+
+.container__h1, 
+.container__h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.container__h1 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.container__h3 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.container__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container__button-single {
+  width: 137px;
+  height: 36px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 20px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.container__button-single:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.vector {
+  position: absolute;
+  top: 10.4%;
+  left: 49.4%;
+}
+
+.rocket {
+  position: absolute;
+  top: 8%;
+  left: 69%;
+}
+
+.moon-1 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 80%;
+  left: 85%;
+}
+
+.moon-2 {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+
+.moon-2 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
