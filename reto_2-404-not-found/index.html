@@ -12,7 +12,12 @@
 </head>
 <body>
   <div class="container">
-    <img class="container__img" src="./imgs/404.png" alt="error">
+    <picture>
+      <source class="container__img" media="(max-width: 799px)" srcset="./imgs/406-1.png">
+      <source class="container__img" media="(min-width: 800px)" srcset="./imgs/405.png">
+      <img class="container__img" src="./imgs/404.png" alt="error">
+    </picture>
+    <!-- <img class="container__img" src="./imgs/404.png" alt="error"> -->
     <h1 class="container__h1">OOPS!</h1>
     <h3 class="container__h3">PAGE NOT FOUND</h3>
     <div class="container__buttons">
@@ -20,8 +25,18 @@
       <button class="container__button-single">GO BACK</button>
     </div>
   </div>
-  <img class="vector" src="./imgs/Vector-1.png" alt="vector">
-  <img class="rocket" src="./imgs/Rocket-1.png" alt="rocket">
+  <picture>
+    <source media="(max-width: 799px)" srcset="./imgs/Vector.png">
+    <source media="(min-width: 800px)" srcset="./imgs/Vector-1.png">
+    <img class="vector" src="./imgs/Vector-1.png" alt="vector">
+  </picture>
+  <!-- <img class="vector" src="./imgs/Vector-1.png" alt="vector"> -->
+  <picture>
+    <source media="(max-width: 799px)" srcset="./imgs/Rocket.png">
+    <source media="(min-width: 800px)" srcset="./imgs/Rocket-1.png">
+    <img class="rocket" src="./imgs/Rocket-1.png" alt="error">
+  </picture>
+  <!-- <img class="rocket" src="./imgs/Rocket-1.png" alt="rocket"> -->
   <img src="./imgs/80.png" class="moon-1" alt="moon">
   <img src="./imgs/80.png" class="moon-2" alt="moon">
   <img src="./imgs/80.png" class="moon-3" alt="moon">

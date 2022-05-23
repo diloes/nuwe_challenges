@@ -101,3 +101,38 @@ body {
   top: 10%;
   left: 35%;
 }
+
+@media (max-width: 780px) {
+  .container {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    margin-top: 25%;
+  }
+
+  .rocket {
+    top: 22%;
+    left: 79%;
+  }
+
+  .vector {
+    top: 23%;
+    left: 50%;
+  }
+
+  .moon-1 {
+    width: 44px;
+    height: 44px;
+    left: 10%;
+  }
+
+  .moon-2 {
+    top: 19%;
+    left:11%;
+  }
+
+  .moon-3 {
+    left: 80%;
+  }
+}
+
