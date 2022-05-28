@@ -7,7 +7,7 @@ mi objetivo es aprender React.
 
 La otra funcionalidad que tiene la web es subir archivos a través de Google Drive. 
 
-Para hacer la dropzone he utilizado la librería de React: react-dropzone que es fácil de utilizar y 
+Para hacer la dropzone he utilizado la librería react-dropzone que es fácil de utilizar y 
 muy recomendable. 
 
 Para la parte de Google Drive no he utlizado la API, solo que cuando clickas en el botón te lleva a tu drive.
