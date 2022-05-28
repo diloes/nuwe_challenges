@@ -3,7 +3,7 @@
 Este reto consiste en hacer una página que muestre una imagen de un 404 Not Found.
 Tiene que ser responsive. 
 
-## Tecnologías utilizadas
+## Tecnologías utilizadas en este proyecto
 
 Como es una web muy sencilla sólo he usado HTML y CSS3. 
 
