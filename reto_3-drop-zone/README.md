@@ -1,3 +1,18 @@
+# Reto 3 - Dropzone
+Una dropzone es una zona o parte de una web en la que arrastramos y soltamos los archivos que queramos subir
+a un determinado servidor. 
+Se suele llamar dropzone o drag and drop. 
+Para hacer este reto he usado React, aunque quizás es demasiado para un reto tan simple. Pero como siempre, 
+mi objetivo es aprender React. 
+
+La otra funcionalidad que tiene la web es subir archivos a través de Google Drive. 
+
+Para hacer la dropzone he utilizado la librería de React: react-dropzone que es fácil de utilizar y 
+muy recomendable. 
+
+Para la parte de Google Drive no he utlizado la API, solo que cuando clickas en el botón te lleva a tu drive.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

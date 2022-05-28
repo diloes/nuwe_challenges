@@ -11,6 +11,10 @@ function DropZone() {
     </li>
   ))
 
+  const handleGoogle = e => {
+    window.open('https://drive.google.com/drive/my-drive')
+  }
+
   return (
     <div className="container">
 
@@ -36,8 +40,8 @@ function DropZone() {
         <h3>Bienvenido a DDrop</h3>
         <p>Para subir tus archivos de forma simple a drive, 
         puedes hacer Login a través de Google.</p>
-        <hr/>
-        <button>Login con Google</button>
+        <div />
+        <button onClick={handleGoogle}>Login con Google</button>
       </div>
 
     </div>
@@ -45,6 +49,3 @@ function DropZone() {
 }
 
 export default DropZone
-
-
-//TODO: importar react-dropzone
